@@ -19,9 +19,9 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/nfts": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "Returns all nfts from the system that the user has access to",
         "parameters": [
           {
             "name": "limit",
@@ -96,7 +96,7 @@
         }
       }
     },
-    "/plants/{id}": {
+    "/nfts/{id}": {
       "delete": {
         "description": "Deletes a single plant based on the ID supplied",
         "parameters": [
